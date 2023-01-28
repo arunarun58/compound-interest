@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.container {
+    background-color: rgb(4, 42, 75);
+    color: white;
+    display: table;
+    margin: 0 auto;
+    height: 85vh;
+    width: 40vh;
+}
+
+.output_screen {
+    height: 20vh;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.output_screen p {
+    padding-top: 30px;
+}
+
+.input_boxes {
+    display: grid;
+    padding: 0px 20px;
+}
+
+input {
+    box-sizing: border-box;
+    height: 25px;
+    font-size: 20px;
+}
+
+.btn {
+   
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+button {
+    box-sizing: border-box;
+    font-size: 18px;
+    width: 90px;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 5px;
+    cursor: pointer;
+ 
+}
+
+ .calculate {
+    background-color: rgb(128, 36, 36);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clear {
+    background-color: rgb(15, 100, 33);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.calculate:hover {
+    background-color: rgb(21, 83, 34);
+    transition: .5s;
+}
+
+.clear:hover {
+    background-color: rgb(10, 65, 22);
+    transition: .5s;
+}
